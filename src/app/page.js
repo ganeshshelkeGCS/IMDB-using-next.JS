@@ -1,4 +1,4 @@
-const API_KEY = "a1ce8760a33940f3d3e370ce44394505";
+const API_KEY = process.env.API_KEY;
 import Result from "../components/Result";
 
 async function Home({ searchParams }) {
